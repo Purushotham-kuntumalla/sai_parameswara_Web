@@ -1,0 +1,45 @@
+.navbar{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_image{
+    width: 120px;
+    height: 120px;
+}
+
+.dropdown{
+    padding-right: 2rem;
+}
+
+.card_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 2rem;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 4px 2px #000 ;
+    cursor: pointer;
+}
+
+.headding{
+    text-transform: uppercase;
+}
+
+span{
+    color: blueviolet;
+    text-shadow: 2px 2px 3px #000;
+    text-decoration: underline;
+}

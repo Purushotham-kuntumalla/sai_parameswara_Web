@@ -1,0 +1,18 @@
+.navbar{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_image{
+    width: 120px;
+    height: 120px;
+}
+
+.dropdown{
+    padding-right: 2rem;
+}
+
